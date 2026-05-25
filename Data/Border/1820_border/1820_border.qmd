@@ -1,0 +1,58 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.9-Prizren">
+  <identifier>1820_border</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>1820_border</title>
+  <abstract>This boundary files contains historic state/territory boundaries for which the U.S. Census Bureau tabulated data and was produced by the Minnesota Population Center as part of the National Historical Geographic Information System (NHGIS) project. The NHGIS is an National Science Foundation-sponsored project (Grant No. BCS0094908) to create a digital spatial-temporal database of all available historical US aggregate census materials. The available shapefiles on the NHGIS site represent version 1.0 of historical US state/territory boundary files for the 1790 to 2000 censuses. NHGIS staff dissolved the historic county boundaries to create these state/territory boundaries. The county boundary files were created by referencing a wide variety of sources and considerable care was taken during their production. U.S. Census Bureau TIGER/Line Census 2000 files provided the 1990 and 2000 county boundaries and the roads, hydrography, and public land survey lines required to construct historic county boundaries. Locations of historic county boundaries were derived from William Thorndale and William Dollarhide's Map Guide to the U.S. Federal Censuses (1987), various volumes of John H. Long's Atlas of Historical County Boundaries, the Atlas of Historical County Boundaries website (http://www.newberry.org/ahcbp/), and other state-specific sources. TIGER/Line spatial features that corresponded to boundaries in these sources were used to construct the proper historic boundaries. When a TIGER/Line feature was not available, we digitized the historic boundary from one of the map sources. Aggregate data from Michael Haines' Historical Demographic, Economic and Social Data: The United States, 1790-1970 (2001) and Richard Forstall's Population of States and Counties of the United States: 1790 to 1990 (1996) were used to determine whether a county was enumerated during a given census. If a county was not enumerated, notes from those sources were used to attach the county in question to the county with which it was enumerated. If a county was not enumerated and the notes provide no details, the county was considered 'unattached' and it was merged with other unattached land within the state or territory. The unattached areas were kept in the county boundary files so that the NHGIS could dissolve counties to construct states/territories.
+
+These data are based upon work supported by the National Science Foundation under Grant No. BCS0094908 - in infrastructure grant provided for the social sciences. Its purpose is twofold. First, the NHGIS created and freely distributes a database incorporating all available aggregate census information for the United States between 1790 and 2000. The database contains information for a wide variety of statistical (blocks, block groups, census tracts, metropolitan statistical areas) and administrative units (places, minor civil divisions, counties, states). Second, the NHGIS produced and freely distributes boundary files for small areas (census tracts and counties) in the United States. Boundary files for tracts are available for the 1910-2000 censuses, and boundary files for counties and states/territories are available for the 1790-2000 censuses. The boundaries contained in this file do not necessarily represent legal county boundaries. Instead, they represent the county boundaries over which the U.S. Census Bureau tabulated and published data.
+
+States are the primary legal political and administrative subdivisions of the United States of America. The 50 states plus the District of Columbia comprise the United States. Historically, the United States also contained territories - legal subdivisions that existed as a precursor to statehood. The NHGIS assigned a three-digit code to every state/territory. The codes were adapted from the FIPS coding system, and NHGIS staff created new codes for territories. For those historical territories, the NHGIS assigned a new code based on the alphabetical order of all states or territories that have ever existed.</abstract>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>historical</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>physical address</type>
+      <address>50 Willey Hall
+225 19th Avenue South</address>
+      <city>Minneapolis</city>
+      <administrativearea>Minnesota</administrativearea>
+      <postalcode>55455</postalcode>
+      <country>USA</country>
+    </contactAddress>
+    <name></name>
+    <organization></organization>
+    <position></position>
+    <voice>612-625-7375</voice>
+    <fax></fax>
+    <email>nhgis@pop.umn.edu</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link format="" size="" type="Local Area Network" name="Shapefile" url="file://\\thalia.socsci.umn.edu\popgis\labpcs\conflation\shapefiles\packing\gisjoin_gisjoin2_feature_class\state\us_state_1820\US_state_1820.shp" mimeType="" description=""/>
+  </links>
+  <dates/>
+  <fees></fees>
+  <constraints type="Access">All persons are granted a limited license to use and distribute this documentation and the available data, subject to the use constraints listed below.</constraints>
+  <rights>This dataset was produced with an intended application at the state/territory, regional or national level. Appropriate uses include thematic mapping of census data and spatial analysis of census data. These unaltered data may be redistributed by a third party. If these data are altered or incorporated into another dataset, they are not to be redistributed without also: altering the name of the dataset, including a Content Standars for Digital Geospatial Metadata (FGDC-STD-001-1998) compliant metadata file that describes the dataset and reflects the alteration steps that makes the new dataset different from this one, and citing this dataset in the metadata as a source for the altered dataset using the source citation specified below. If these digital data are used in the production of a report or in the compilation of a standalone printed map, then this dataset is to be cited in the report or on the map using the source citation specified below. The following source citation should be used when citing this dataset: John S. Adams, William C. Block, Mark Lindberg, Robert McMaster, Steven Ruggles, and Wendy Thomas, National Historical Geographic Information System: Pre-release Version 0.1, Minneapolis: Minnesota Population Center, University of Minnesota, 2004. No fee may be charged for use or distribution. Publications and research reports based on the database must cite it appropriately. Users are requested to send a copy of any publications, research reports, or educational material making use of the data or documentation. Printed matter should be sent to: NHGIS Minnesota Population Center University of Minnesota 50 Willey Hall 225 19th Avenue South Minneapolis, MN 55455</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["USA_Contiguous_Albers_Equal_Area_Conic",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["Degree",0.0174532925199433]]],CONVERSION["USA_Contiguous_Albers_Equal_Area_Conic",METHOD["Albers Equal Area",ID["EPSG",9822]],PARAMETER["Latitude of false origin",37.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-96,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",29.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",45.5,ANGLEUNIT["Degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",0,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Not known."],AREA["United States (USA) - CONUS onshore - Alabama; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming."],BBOX[24.41,-124.79,49.38,-66.91]],ID["ESRI",102003]]</wkt>
+      <proj4>+proj=aea +lat_0=37.5 +lon_0=-96 +lat_1=29.5 +lat_2=45.5 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>27126</srsid>
+      <srid>102003</srid>
+      <authid>ESRI:102003</authid>
+      <description>USA_Contiguous_Albers_Equal_Area_Conic</description>
+      <projectionacronym>aea</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="ESRI:102003" miny="-934780.2563800000352785" minz="0" maxz="0" minx="-1389607.94652700005099177" maxx="2258224.79635699978098273" maxy="1408187.86700699990615249" dimensions="2"/>
+  </extent>
+</qgis>

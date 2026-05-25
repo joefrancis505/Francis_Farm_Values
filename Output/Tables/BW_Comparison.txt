@@ -1,0 +1,34 @@
+Bandwidth-method comparison: geography-adjusted spatial RDD (Column 2 of Table 2)
+======================================================================================== 
+
+Simplified: retains unadjusted bias constants; recomputes variance with adjusted residuals.
+Full:       Calonico (2019) per-eval-point on Y_tilde = Y - gamma'Z; recomputes both.
+
+Per-year AATE comparison:
+# A tibble: 6 × 13
+   year aate_simplified aate_full se_simplified se_full p_value_simplified
+  <dbl>           <dbl>     <dbl>         <dbl>   <dbl>              <dbl>
+1  1850         -0.138    -0.165         0.0520  0.0514           7.82e- 3
+2  1860         -0.0861   -0.0789        0.0455  0.0456           5.85e- 2
+3  1870         -0.319    -0.281         0.0478  0.0480           2.63e-11
+4  1880         -0.212    -0.170         0.0383  0.0392           3.15e- 8
+5  1890         -0.138    -0.0907        0.0402  0.0406           6.20e- 4
+6  1900         -0.112    -0.0704        0.0409  0.0394           6.40e- 3
+   p_value_full h_median_simplified h_median_full   d_aate d_aate_pct d_h_median
+          <dbl>               <dbl>         <dbl>    <dbl>      <dbl>      <dbl>
+1 0.00132                   282252.       296201. -0.0268       19.4      13948.
+2 0.0840                    301249.       345605.  0.00722      -8.39     44355.
+3 0.00000000479             299486.       347282.  0.0375      -11.8      47796.
+4 0.0000145                 294260.       349026.  0.0421      -19.8      54766.
+5 0.0256                    339895.       413750.  0.0470      -34.1      73856.
+6 0.0737                    353253.       435355.  0.0411      -36.9      82102.
+  h_ratio
+    <dbl>
+1    1.05
+2    1.15
+3    1.16
+4    1.19
+5    1.22
+6    1.23
+
+Full per-year/method breakdown:

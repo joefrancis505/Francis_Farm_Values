@@ -4,7 +4,7 @@ All versions of *Did Slavery Impede the Growth of American Capitalism?
 Two Failed Natural Experiments*. Superseded versions are preserved under
 `archive/`.
 
-## v6.1 — July 3, 2026
+## v6.1 — July 5, 2026
 
 Paper and replication package revised together. The current package
 lives in `replication/`.

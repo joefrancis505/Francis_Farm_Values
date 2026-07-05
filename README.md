@@ -2,7 +2,7 @@
 
 Joseph Francis, *Did Slavery Impede the Growth of American Capitalism?
 Two Failed Natural Experiments* — working paper, current version
-**v6.1** (July 3, 2026).
+**v6.1** (July 5, 2026).
 
 ## Layout
 

@@ -7,10 +7,10 @@ authors:
     given-names: Joseph
     email: joefrancis505@gmail.com
     affiliation: "University of Birmingham (Honorary Research Fellow)"
-repository-code: "https://github.com/joefrancis505/Francis_Farm-Values"
+repository-code: "https://github.com/joefrancis505/Francis_Farm_Values"
 license: MIT
 version: "6.1"
-date-released: "2026-07-03"
+date-released: "2026-07-05"
 preferred-citation:
   type: article
   title: "Did Slavery Impede the Growth of American Capitalism? Two Failed Natural Experiments"
@@ -18,4 +18,4 @@ preferred-citation:
     - family-names: Francis
       given-names: Joseph
   year: 2026
-  url: "https://github.com/joefrancis505/Francis_Farm-Values"
+  url: "https://github.com/joefrancis505/Francis_Farm_Values"

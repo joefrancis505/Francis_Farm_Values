@@ -1,0 +1,52 @@
+# =============================================================================
+# .gitignore — Francis Farm-Values replication
+# =============================================================================
+# Everything downloaded by the pipeline, plus everything written by the
+# analysis scripts, stays out of git. The only data committed is the
+# hand-built free-slave state border shapefile in Data/Border/1820_border/.
+# =============================================================================
+
+# --- API keys ---------------------------------------------------------------
+.env
+.Renviron
+
+# --- Downloaded inputs ------------------------------------------------------
+# IPUMS NHGIS data (census tables + shapefiles): cannot be redistributed under
+# the IPUMS Terms of Use, so it stays out of git and is downloaded by step 1.
+Data/*
+!Data/Border/
+Data/Border/*
+!Data/Border/1820_border/
+Data/Border/1820_border/*
+!Data/Border/1820_border/*.cpg
+!Data/Border/1820_border/*.dbf
+!Data/Border/1820_border/*.prj
+!Data/Border/1820_border/*.qmd
+!Data/Border/1820_border/*.shp
+!Data/Border/1820_border/*.shx
+
+# --- Shipped geographic covariates ------------------------------------------
+# Geology_v2 holds the pinned county-mean topography (USGS 3DEP/NED) and soil
+# texture (CONUS-SOIL) CSVs that 04_Analysis_Spatial_RDD.R reads. These are
+# derived from public-domain US-government sources, are only ~3 MB, and are
+# committed so the package reproduces Tables 2 and 3 without an OpenTopo key
+# or exposure to upstream API drift. Regenerate with 00_Build_Geology_v2.R.
+!Data/Geology_v2/
+!Data/Geology_v2/**
+# ...but not the per-state build checkpoints (intermediate; regenerated on rebuild)
+Data/Geology_v2/_state_partials/
+
+# --- Pipeline outputs -------------------------------------------------------
+Output/
+
+# --- R session files --------------------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# --- macOS / editor cruft ---------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*~

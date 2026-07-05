@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the paper below."
+type: software
+title: "Replication: Did Slavery Impede the Growth of American Capitalism? Two Failed Natural Experiments"
+authors:
+  - family-names: Francis
+    given-names: Joseph
+    email: joefrancis505@gmail.com
+    affiliation: "University of Birmingham (Honorary Research Fellow)"
+repository-code: "https://github.com/joefrancis505/Francis_Farm-Values"
+license: MIT
+version: "6.0"
+date-released: "2026-05-25"
+preferred-citation:
+  type: article
+  title: "Did Slavery Impede the Growth of American Capitalism? Two Failed Natural Experiments"
+  authors:
+    - family-names: Francis
+      given-names: Joseph
+  year: 2026
+  url: "https://github.com/joefrancis505/Francis_Farm-Values"

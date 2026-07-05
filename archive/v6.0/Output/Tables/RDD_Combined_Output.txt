@@ -1,0 +1,104 @@
+Spatial RDD Results (rd2d)
+================================================================================ 
+
+--- Balance Tests (Table 3) ---
+
+Analysis                                                         AATE        SE   p-value
+---------------------------------------------------------------------------------------- 
+Slope (1850)                                                 0.647**      0.239    0.0068 
+Elevation (1850)                                            -9.983        6.246    0.1100 
+Ruggedness (TRI) (1850)                                      0.466        0.338    0.1680 
+Clay content (1850)                                          2.504        4.130    0.5442 
+Sand fraction (1850)                                       -12.059*       5.257    0.0218 
+Silt fraction (1850)                                       -13.409        7.219    0.0633 
+Slope (1860)                                                 0.690**      0.222    0.0019 
+Elevation (1860)                                            -1.796        6.452    0.7808 
+Ruggedness (TRI) (1860)                                      0.470        0.339    0.1663 
+Clay content (1860)                                         -0.164        4.233    0.9690 
+Sand fraction (1860)                                       -17.131***     5.189    0.0010 
+Silt fraction (1860)                                       -13.882        7.711    0.0718 
+Slope (1870)                                                 0.796***     0.221    0.0003 
+Elevation (1870)                                             1.301        6.287    0.8361 
+Ruggedness (TRI) (1870)                                      0.691*       0.331    0.0370 
+Clay content (1870)                                          0.536        4.296    0.9006 
+Sand fraction (1870)                                       -15.284**      5.308    0.0040 
+Silt fraction (1870)                                       -12.874        7.654    0.0926 
+Slope (1880)                                                 0.857***     0.223    0.0001 
+Elevation (1880)                                             3.094        6.246    0.6204 
+Ruggedness (TRI) (1880)                                      0.821*       0.337    0.0147 
+Clay content (1880)                                         -3.952        5.158    0.4436 
+Sand fraction (1880)                                       -14.407**      5.232    0.0059 
+Silt fraction (1880)                                       -23.673*      10.337    0.0220 
+Slope (1890)                                                 0.941***     0.215    0.0000 
+Elevation (1890)                                             9.724        5.984    0.1042 
+Ruggedness (TRI) (1890)                                      0.781*       0.335    0.0198 
+Clay content (1890)                                         -2.456        4.933    0.6186 
+Sand fraction (1890)                                       -15.278**      5.246    0.0036 
+Silt fraction (1890)                                       -23.288*      10.019    0.0201 
+Slope (1900)                                                 0.930***     0.216    0.0000 
+Elevation (1900)                                            12.997*       6.383    0.0417 
+Ruggedness (TRI) (1900)                                      0.830*       0.346    0.0164 
+Clay content (1900)                                         -3.090        4.873    0.5260 
+Sand fraction (1900)                                       -19.220***     5.300    0.0003 
+Silt fraction (1900)                                       -23.261*      10.076    0.0210 
+
+--- Outcomes (Table 2) ---
+
+Analysis                                                         AATE        SE   p-value  N pts 
+------------------------------------------------------------------------------------------------ 
+Log Farm Value (1850) [unadjusted_tri_mserd]                -0.044        0.070    0.5287    100 
+Log Farm Value (1850) [geog_adjusted_tri_mserd]             -0.165**      0.051    0.0013    100 
+Log Farm Value (1850) [geog_and_slave_adjusted_tri_mserd]    -0.449***     0.048    0.0000    100 
+Log Farm Value (1850) [unadjusted_tri_imserd]               -0.063        0.075    0.4003    100 
+Log Farm Value (1850) [geog_adjusted_tri_imserd]            -0.164**      0.052    0.0015    100 
+Log Farm Value (1850) [geog_and_slave_adjusted_tri_imserd]    -0.447***     0.048    0.0000    100 
+Log Farm Value (1850) [unadjusted_epa_mserd]                -0.040        0.071    0.5718    100 
+Log Farm Value (1850) [geog_adjusted_epa_mserd]             -0.157**      0.054    0.0037    100 
+Log Farm Value (1850) [geog_and_slave_adjusted_epa_mserd]    -0.442***     0.050    0.0000    100 
+Log Farm Value (1850) [unadjusted_tri_mserd_p2]             -0.084        0.076    0.2691    100 
+Log Farm Value (1850) [geog_adjusted_tri_mserd_p2]          -0.145*       0.056    0.0100    100 
+Log Farm Value (1850) [geog_and_slave_adjusted_tri_mserd_p2]    -0.445***     0.053    0.0000    100 
+Log Farm Value (1860) [unadjusted_tri_mserd]                -0.038        0.066    0.5650    100 
+Log Farm Value (1860) [geog_adjusted_tri_mserd]             -0.079        0.046    0.0840    100 
+Log Farm Value (1860) [geog_and_slave_adjusted_tri_mserd]    -0.317***     0.044    0.0000    100 
+Log Farm Value (1860) [unadjusted_tri_imserd]               -0.049        0.066    0.4591    100 
+Log Farm Value (1860) [geog_adjusted_tri_imserd]            -0.079        0.046    0.0861    100 
+Log Farm Value (1860) [geog_and_slave_adjusted_tri_imserd]    -0.316***     0.044    0.0000    100 
+Log Farm Value (1860) [unadjusted_epa_mserd]                -0.016        0.068    0.8100    100 
+Log Farm Value (1860) [geog_adjusted_epa_mserd]             -0.068        0.048    0.1613    100 
+Log Farm Value (1860) [geog_and_slave_adjusted_epa_mserd]    -0.299***     0.047    0.0000    100 
+Log Farm Value (1860) [unadjusted_tri_mserd_p2]             -0.051        0.068    0.4485    100 
+Log Farm Value (1860) [geog_adjusted_tri_mserd_p2]          -0.085        0.048    0.0754    100 
+Log Farm Value (1860) [geog_and_slave_adjusted_tri_mserd_p2]    -0.340***     0.048    0.0000    100 
+Log Farm Value (1870) [unadjusted_tri_mserd]                -0.254***     0.070    0.0003    100 
+Log Farm Value (1870) [geog_adjusted_tri_mserd]             -0.281***     0.048    0.0000    100 
+Log Farm Value (1870) [unadjusted_tri_imserd]               -0.238***     0.072    0.0009    100 
+Log Farm Value (1870) [geog_adjusted_tri_imserd]            -0.281***     0.048    0.0000    100 
+Log Farm Value (1870) [unadjusted_epa_mserd]                -0.207**      0.073    0.0045    100 
+Log Farm Value (1870) [geog_adjusted_epa_mserd]             -0.269***     0.051    0.0000    100 
+Log Farm Value (1870) [unadjusted_tri_mserd_p2]             -0.219**      0.071    0.0020    100 
+Log Farm Value (1870) [geog_adjusted_tri_mserd_p2]          -0.282***     0.050    0.0000    100 
+Log Farm Value (1880) [unadjusted_tri_mserd]                -0.111        0.061    0.0694    100 
+Log Farm Value (1880) [geog_adjusted_tri_mserd]             -0.170***     0.039    0.0000    100 
+Log Farm Value (1880) [unadjusted_tri_imserd]               -0.078        0.066    0.2386    100 
+Log Farm Value (1880) [geog_adjusted_tri_imserd]            -0.165***     0.039    0.0000    100 
+Log Farm Value (1880) [unadjusted_epa_mserd]                -0.087        0.065    0.1820    100 
+Log Farm Value (1880) [geog_adjusted_epa_mserd]             -0.153***     0.042    0.0002    100 
+Log Farm Value (1880) [unadjusted_tri_mserd_p2]             -0.086        0.065    0.1877    100 
+Log Farm Value (1880) [geog_adjusted_tri_mserd_p2]          -0.157***     0.043    0.0002    100 
+Log Farm Value (1890) [unadjusted_tri_mserd]                -0.009        0.059    0.8739    100 
+Log Farm Value (1890) [geog_adjusted_tri_mserd]             -0.091*       0.041    0.0256    100 
+Log Farm Value (1890) [unadjusted_tri_imserd]                0.019        0.067    0.7807    100 
+Log Farm Value (1890) [geog_adjusted_tri_imserd]            -0.095*       0.041    0.0198    100 
+Log Farm Value (1890) [unadjusted_epa_mserd]                 0.014        0.062    0.8274    100 
+Log Farm Value (1890) [geog_adjusted_epa_mserd]             -0.080        0.042    0.0582    100 
+Log Farm Value (1890) [unadjusted_tri_mserd_p2]              0.043        0.068    0.5284    100 
+Log Farm Value (1890) [geog_adjusted_tri_mserd_p2]          -0.057        0.044    0.1911    100 
+Log Farm Value (1900) [unadjusted_tri_mserd]                 0.043        0.059    0.4656    100 
+Log Farm Value (1900) [geog_adjusted_tri_mserd]             -0.070        0.039    0.0737    100 
+Log Farm Value (1900) [unadjusted_tri_imserd]                0.055        0.064    0.3883    100 
+Log Farm Value (1900) [geog_adjusted_tri_imserd]            -0.075        0.040    0.0573    100 
+Log Farm Value (1900) [unadjusted_epa_mserd]                 0.081        0.064    0.2039    100 
+Log Farm Value (1900) [geog_adjusted_epa_mserd]             -0.059        0.041    0.1438    100 
+Log Farm Value (1900) [unadjusted_tri_mserd_p2]              0.052        0.067    0.4366    100 
+Log Farm Value (1900) [geog_adjusted_tri_mserd_p2]          -0.041        0.042    0.3288    100 

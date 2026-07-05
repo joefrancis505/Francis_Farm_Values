@@ -1,0 +1,14 @@
+# macOS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# API keys (also ignored in replication/.gitignore)
+.env
+.Renviron
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/

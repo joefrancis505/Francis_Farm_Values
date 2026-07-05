@@ -1,0 +1,14 @@
+CONUS-SOIL + 3DEP topography covariates for Farm-Values spatial RDD
+Built: 2026-06-10 12:57:44
+
+TOPOGRAPHY: USGS 3DEP / NED 1 arc-second (~30 m) via FedData::get_ned().
+  Slope (deg) and ruggedness (TRI) computed after projection to EPSG:5070.
+  Elevation = mean of native NED (m). County means via exactextractr.
+
+SOIL: Miller & White (1998) CONUS-SOIL, USDA STATSGO; 30 arc-sec, NAD27,
+  dbwww.essc.psu.edu/dbtop/.link/1997-0009. Topsoil 0-30 cm = depth-weighted
+  mean of layers 1-4 (2,2,4,4 in). Same soil source as Bleakley & Rhode (2024).
+
+Sample matches 04 (territories + KS/NE excluded). Derived CSVs are shipped
+as canonical analysis inputs (pinned against upstream API drift); regenerate
+with Scripts/00_Build_Geology_v2.R.
